@@ -22,7 +22,7 @@ sources:
  - https://github.com/evryfs/helm-charts
 dependencies:
 - name: postgresql
-  version: ~10.10
+  version: ~10.15.0
   repository: https://charts.bitnami.com/bitnami
   condition: postgresql.enabled
 - name: common
